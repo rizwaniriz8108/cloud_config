@@ -6,3 +6,7 @@ eureka:
          defaultZone: http://localhost:8761/eureka
    instance:
     hostname: localhost 
+    
+payment_service:
+   endpoints:
+      dopayment: http://PAYMENT-SERVICE/payment/doPayment
