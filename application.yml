@@ -10,3 +10,6 @@ eureka:
 payment_service:
    endpoints:
       dopayment: http://PAYMENT-SERVICE/payment/doPayment
+   payment: 
+      gateway: 
+         flag: true
