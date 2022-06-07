@@ -12,4 +12,4 @@ payment_service:
       dopayment: http://PAYMENT-SERVICE/payment/doPayment
    payment: 
       gateway: 
-         flag: true
+         flag: false
